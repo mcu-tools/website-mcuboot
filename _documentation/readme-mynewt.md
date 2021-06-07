@@ -1,3 +1,7 @@
+---
+title: Running mynewt apps with MCUboot
+---
+
 # Running mynewt apps with MCUboot
 
 Due to small differences between Mynewt's bundled bootloader and MCUboot,
