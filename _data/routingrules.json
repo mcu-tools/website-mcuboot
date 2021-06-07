@@ -1,0 +1,16 @@
+[
+  "^/release-notes.html$ /documentation/release-notes/ [R,L,NC]",
+  "^/release-notes.html$ /documentation/release-notes/ [R,L,NC]",
+  "^/imgtool.html$ /documentation/imgtool/ [R,L,NC]",
+  "^/ecdsa.html$ /documentation/ecdsa/ [R,L,NC]",
+  "^/readme-zephyr.html$ /documentation/readme-zephyr/ [R,L,NC]",
+  "^/readme-mynewt.html$ /documentation/readme-mynewt/ [R,L,NC]",
+  "^/readme-riot.html$ /documentation/readme-riot/ [R,L,NC]",
+  "^/readme-mbed.html$ /documentation/readme-mbed/ [R,L,NC]",
+  "^/SubmittingPatches.html$ /contact/ [R,L,NC]",
+  "^/testplan-zephyr.html$ /documentation/testplan-zephyr/ [R,L,NC]",
+  "^/testplan-mynewt.html$ /documentation/testplan-mynewt/ [R,L,NC]",
+  "^/release.html$ /documentation/release-process/ [R,L,NC]",
+  "^/signed_images.html$ /documentation/signed-images/ [R,L,NC]",
+  "^/encrypted_images.html$ /documentation/encrypted-images/ [R,L,NC]"
+]
