@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "image": "/assets/images/members/arm.jpg",
+      "name": "Arm",
+      "type": "general",
+      "url": "https://www.arm.com/"
+    },
+    {
+      "image": "/assets/images/members/infineon-logo.png",
+      "name": "Infineon",
+      "type": "general",
+      "url": "https://www.infineon.com/"
+    },
+    {
+      "image": "/assets/images/members/Linaro.jpg",
+      "name": "Linaro",
+      "type": "general",
+      "url": "https://www.linaro.org/"
+    },
+    {
+      "image": "/assets/images/members/nordic-logo.png",
+      "name": "Nordic",
+      "type": "general",
+      "url": "https://www.nordicsemi.com/"
+    },
+    {
+      "image": "/assets/images/members/ST.jpg",
+      "name": "ST",
+      "type": "general",
+      "url": "https://www.st.com/content/st_com/en.html"
+    }
+  ]
+}
