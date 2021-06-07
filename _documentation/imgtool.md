@@ -7,7 +7,7 @@ title: Image tool
 The Python program `scripts/imgtool.py` can be used to perform the
 operations that are necessary to manage keys and sign images.  Using
 this script should be preferred to the manual steps described in
-`doc/signed_images.md`.
+`doc//documentation/signed-images/`.
 
 This program is written for Python3, and has several dependencies on
 Python libraries.  These can be installed using 'pip3':
@@ -40,7 +40,7 @@ key, as described above, you should replace the public key in the
 bootloader with the generated one.
 
 For Zephyr, the keys live in the file `boot/zephyr/keys.c`.  For
-mynewt, follow the instructions in `doc/signed_images.md` to generate
+mynewt, follow the instructions in `doc//documentation/signed-images/` to generate
 the key file.
 
     ./scripts/imgtool.py getpub -k filename.pem
@@ -136,4 +136,4 @@ which case only the hash of the public key is added to the TLV area (the full
 public key is incorporated into the bootloader). When the `full` option is used
 instead, the TLV area will contain the whole public key and thus the bootloader
 can be independent from the key(s). For more information on the additional
-requirements of this option, see the [design](design.md) document.
+requirements of this option, see the [design](/documentation/design/) document.

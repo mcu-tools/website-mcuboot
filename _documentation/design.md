@@ -346,7 +346,7 @@ of the swap mode's "revert" swap. It can be enabled with the
 MCUBOOT_DIRECT_XIP_REVERT config option and an image trailer must also be added
 to the signed images (the "--pad" option of the `imgtool` script must be used).
 For more information on this please read the [Image Trailer](#image-trailer)
-section and the [imgtool](imgtool.md) documentation. Making the images permanent
+section and the [imgtool](/documentation/imgtool/) documentation. Making the images permanent
 (marking them as confirmed in advance) is also supported just like in swap mode.
 The individual steps of the direct-xip mode's "revert" mechanism are the
 following:
@@ -438,7 +438,7 @@ of 3 is explained below.
 
 2. Encryption keys: key-encrypting keys (KEKs).  These keys are needed for
    image encryption and decryption.  See the
-   [encrypted images](encrypted_images.md) document for more information.
+   [encrypted images](/documentation/encrypted-images/) document for more information.
 
 3. Swap size: When beginning a new swap operation, the total size that needs
    to be swapped (based on the slot with largest image + TLVs) is written to
@@ -975,10 +975,10 @@ image was signed with a private key that corresponds to the embedded KEYHASH
 TLV.
 
 For information on embedding public keys in the boot loader, as well as
-producing signed images, see: [signed_images](signed_images.md).
+producing signed images, see: [signed_images](/documentation/signed-images/).
 
 If you want to enable and use encrypted images, see:
-[encrypted_images](encrypted_images.md).
+[encrypted_images](/documentation/encrypted-images/).
 
 Note: Image encryption is not supported when the direct-xip or the ram-load
 upgrade strategy is selected.
@@ -1060,7 +1060,7 @@ least 1 valid configuration. In worst case, the system returns to the initial
 state after dependency check.
 
 For more information on adding dependency entries to an image,
-see: [imgtool](imgtool.md).
+see: [imgtool](/documentation/imgtool/).
 
 ## [Downgrade Prevention](#downgrade-prevention)
 
@@ -1080,7 +1080,7 @@ is set).
 ### [HW Based Downgrade Prevention](#hw-downgrade-prevention)
 
 Each signed image can contain a security counter in its protected TLV area, which
-can be added to the image using the `-s` option of the [imgtool](imgtool.md) script.
+can be added to the image using the `-s` option of the [imgtool](/documentation/imgtool/) script.
 During the hardware based downgrade prevention (alias rollback protection) the
 new image's security counter will be compared with the currently active security
 counter value which must be stored in a non-volatile and trusted component of
