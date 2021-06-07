@@ -31,10 +31,16 @@ sass:
   style: compressed
   load_paths:
     - assets/css
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
 plugins:
   - japr
   - jekyll_picture_tag
   - jekyll-tidy
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
 collections:
   authors:
     output: true
@@ -185,7 +191,7 @@ jekyll_relative_links:
   verbose: 1
 relative_links:
   enabled: true
-  collections: false
+  collections: true
 # -------- jekyll_relative_links --------
 readme_index:
   enabled: true
