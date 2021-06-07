@@ -9,7 +9,7 @@ acquired the ability to be used as a bootloader for Zephyr as well.
 There are some pretty significant differences in how apps are built
 for Zephyr, and these are documented here.
 
-Please see the [design document](design.md) for documentation on the design
+Please see the [design document](/documentation/design/) for documentation on the design
 and operation of the bootloader itself. This functionality should be the same
 on all supported RTOSs.
 
@@ -133,7 +133,7 @@ otherwise the bootloader will revert the application.
 The signing keys used by MCUboot are represented in standard formats,
 and can be generated and processed using conventional tools.  However,
 `scripts/imgtool.py` is able to generate key pairs in all of the
-supported formats.  See [the docs](imgtool.md) for more details on
+supported formats.  See [the docs](/documentation/imgtool/) for more details on
 this tool.
 
 ### Generating a new keypair
@@ -146,7 +146,7 @@ subcommand:
 ```
 
 The argument to `-t` should be the desired key type.  See the
-[the docs](imgtool.md) for more details on the possible key types.
+[the docs](/documentation/imgtool/) for more details on the possible key types.
 
 ### Extracting the public key
 

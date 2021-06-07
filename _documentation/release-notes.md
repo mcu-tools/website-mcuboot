@@ -169,7 +169,7 @@ The 1.3.0 release of MCUboot brings in many fixes and updates.  There
 are no breaking changes in functionality.  Many of the changes are
 refactorings that will make the code easier to maintain going forward.
 In addition, support has been added for encrypted images.  See [the
-docs](encrypted_images.md) for more information.
+docs](/documentation/encrypted-images/) for more information.
 
 ### About this release
 
@@ -185,7 +185,7 @@ docs](encrypted_images.md) for more information.
   logging system used in Zephyr.
 - Add multiple flash support.  Allows slot1/scratch to be stored in an
   external flash device.
-- Add support for [encrypted images](encrypted_images.md).
+- Add support for [encrypted images](/documentation/encrypted-images/).
 - Add support for flash devices that read as '0' when erased.
 - Add support to Zephyr for the `nrf52840_pca10059`.  This board
   supports serial recovery over USB with CDC ACM.
@@ -289,8 +289,8 @@ incompatible format changes throughout the 1.x.y release series.
   - Nordic nRF51 and nRF52832 dev kits
   - Hexiwear K64
 - Clearer sample applications have been added under `samples`.
-- Test plans for [zephyr](testplan-zephyr.md), and
-  [mynewt](testplan-mynewt.md).
+- Test plans for [zephyr](/documentation/testplan-zephyr/), and
+  [mynewt](/documentation/testplan-mynewt/).
 - The simulator is now able to test RSA signatures.
 - There is an unimplemented `load_addr` header for future support for
   RAM loading in the bootloader.

@@ -159,9 +159,9 @@ required keys.
 ## [Creating your keys with Unix tooling](#creating-your-keys-with-unix-tooling)
 
 * If using RSA-OAEP, generate a keypair following steps similar to those
-  described in [signed_images](signed_images.md) to create RSA keys.
+  described in [signed_images](/documentation/signed-images/) to create RSA keys.
 * If using ECIES-P256, generate a keypair following steps similar to those
-  described in [signed_images](signed_images.md) to create ECDSA256 keys.
+  described in [signed_images](/documentation/signed-images/) to create ECDSA256 keys.
 * If using ECIES-X25519, generate a private key passing the option `-t x25519`
   to `imgtool keygen` command. To generate public key PEM file the following
   command can be used: `openssl pkey -in <generated-private-key.pem> -pubout`
