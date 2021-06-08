@@ -17,16 +17,16 @@ flow:
           text: |-
             We welcome developers to participate in MCUboot!
   - row: container_row
-    style: text-white
+    style: #
     sections:
       - format: text
-        style: text-white larger_type
+        style: larger_type
         text_content:
           text: |-
             - [Our developer mailing list](https://groups.io/g/MCUBoot)
             - [Our Slack channel](https://mcuboot.slack.com/)
-            [Get your invite here!](https://join.slack.com/t/mcuboot/shared_invite/MjE2NDcwMTQ2MTYyLTE1MDA4MTIzNTAtYzgyZTU0NjFkMg)
-            - [Our IRC channel](http://irc.freenode.net/), channel #mcuboot ([IRC Link](irc://chat.freenode.net/#mcuboot))
+            - [Get your invite here!](https://join.slack.com/t/mcuboot/shared_invite/MjE2NDcwMTQ2MTYyLTE1MDA4MTIzNTAtYzgyZTU0NjFkMg)
+            - [Our IRC channel](http://irc.freenode.net/) ([channel #mcuboot IRC Link](irc://chat.freenode.net/#mcuboot))
   - row: main_content_row
 ---
 ## Submitting Patches
