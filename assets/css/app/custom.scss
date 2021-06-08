@@ -1,0 +1,25 @@
+#wrapper {
+  .larger_type {
+    font-size: 34px;
+    @include media-breakpoint-down(md) {
+      font-size: 22px !important;
+    }
+  }
+  img.img-fluid.member_image {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    object-fit: contain;
+    padding: 15px;
+  }
+  #breadcrumb.breadcrumb_bg {
+    overflow-x: hidden;
+  }
+  .navbar-brand img {
+    padding: 10px 0px;
+  }
+  .header_background_image {
+    filter: brightness(0.6);
+  }
+}

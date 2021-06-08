@@ -1,0 +1,24 @@
+search:
+  enabled: false
+  label: MCUBoot
+universal_nav: false
+brand:
+  path: /assets/images/content/MCUboot_logo.svg
+  alt: MCUBoot Logo
+pages:
+  - title: About
+    options:
+      - text: Overview
+        url: /about/
+      - text: Project Charter
+        url: /project-charter/
+  - title: Documentation
+    url: /documentation/
+  - title: News & Blogs
+    options:
+      - text: News
+        url: /news/
+      - text: Blog
+        url: /blog/
+  - title: Contact
+    url: /contact/
