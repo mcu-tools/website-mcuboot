@@ -26,7 +26,7 @@ flow:
             - [Our developer mailing list](https://groups.io/g/MCUBoot)
             - [Our Slack channel](https://mcuboot.slack.com/)
             - [Get your invite here!](https://join.slack.com/t/mcuboot/shared_invite/MjE2NDcwMTQ2MTYyLTE1MDA4MTIzNTAtYzgyZTU0NjFkMg)
-            - [Our IRC channel](http://irc.freenode.net/) ([channel #mcuboot IRC Link](irc://chat.freenode.net/#mcuboot))
+            - Our IRC channel (http://irc.freenode.net/) channel #mcuboot [IRC Link](irc://chat.freenode.net/#mcuboot)
   - row: main_content_row
 ---
 ## Submitting Patches
