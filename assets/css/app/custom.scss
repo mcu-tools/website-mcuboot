@@ -19,7 +19,28 @@
   .navbar-brand img {
     padding: 10px 0px;
   }
-  .header_background_image {
-    filter: brightness(0.6);
+  .larger_type ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  .jumbotron {
+    .header_background_image {
+      filter: brightness(0.7);
+    }
+  }
+  #doc_content {
+    div#markdown-content {
+      padding-top: 20px;
+    }
+    div#table-of-contents {
+      padding-top: 20px;
+    }
+  }
+  ul.docs_nav {
+    li.toc-entry {
+      a {
+        color: $primary;
+      }
+    }
   }
 }
