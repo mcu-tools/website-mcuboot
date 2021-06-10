@@ -4,7 +4,9 @@ author: mcuboot
 layout: post
 date: 2021-06-10 08:00:00
 description: MCUboot project joins the Linaro Community Projects division 
-category: news
+categories:
+- news
+- blog
 tags:
 - Linaro
 - Arm
