@@ -1,6 +1,6 @@
-AWS_STATIC_SITE_PROFILE=mcuboot-com-buildbot
+AWS_STATIC_SITE_PROFILE=production-mcuboot-com-buildbot
 AWS_STATIC_SITE_URL=production-mcuboot-com
-CF_DIST_ID_STATIC_LO=E3G4I7MO4E2BUU
-CLOUDFRONT_SECURITY_HEADERS_FUNC=cloudfront-add-security-headers-production
+CF_DIST_ID_STATIC_LO=E3G86JL4KM4JOH
+CLOUDFRONT_SECURITY_HEADERS_FUNC=cloudfront-add-security-headers
 JEKYLL_ENV=production
 SITE_URL=production.mcuboot.com
