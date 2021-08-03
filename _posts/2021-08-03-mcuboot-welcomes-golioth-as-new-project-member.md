@@ -2,7 +2,6 @@
 title: MCUboot welcomes Golioth as new project member
 author: mcuboot
 layout: post
-date: 2021-06-17 08:00:00
 description: MCUboot welcomes Golioth as new project member
 categories:
 - news
