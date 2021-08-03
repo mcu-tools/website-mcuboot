@@ -2,7 +2,7 @@
 title: MCUboot welcomes Golioth as new project member
 author: mcuboot
 layout: post
-description: Golioth is a platform that allows device makers to deliver on the promise of cloud connected IoT. It enables hardware developers to build secure end-to-end IoT-connected products using their choice of hardware and connectivity, all without the need for a team of cloud engineers.
+description: "Golioth is a platform that allows device makers to deliver on the promise of cloud connected IoT. It enables hardware developers to build secure end-to-end IoT-connected products using their choice of hardware and connectivity, all without the need for a team of cloud engineers."
 categories:
 - news
 - blog
