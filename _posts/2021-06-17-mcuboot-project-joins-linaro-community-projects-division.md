@@ -3,7 +3,10 @@ title: MCUboot project joins the Linaro Community Projects division
 author: mcuboot
 layout: post
 date: 2021-06-17 08:00:00
-description: MCUboot project joins the Linaro Community Projects division 
+description: Linaro Community Projects Division, the
+division of Linaro managing open-source community projects with open governance, today
+announced that the MCUboot project is becoming a Linaro Community Project, joining the
+already hosted projects OpenAMP and Trusted Firmware.
 categories:
 - news
 - blog
