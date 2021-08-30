@@ -7,6 +7,7 @@
   "^/readme-mynewt.html$ /documentation/readme-mynewt/ [R,L,NC]",
   "^/readme-riot.html$ /documentation/readme-riot/ [R,L,NC]",
   "^/readme-mbed.html$ /documentation/readme-mbed/ [R,L,NC]",
+  "^/readme-nuttx.html$ /documentation/readme-nuttx/ [R,L,NC]",
   "^/readme-espressif.html$ /documentation/readme-espressif/ [R,L,NC]",
   "^/SubmittingPatches.html$ /contact/ [R,L,NC]",
   "^/testplan-zephyr.html$ /documentation/testplan-zephyr/ [R,L,NC]",
