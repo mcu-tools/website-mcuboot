@@ -24,5 +24,6 @@ boot/boot_serial: Support for serial upgrade within the bootloader itself. \
 boot/zephyr: Port of the bootloader to Zephyr \
 boot/mynewt: Mynewt bootloader app \
 boot/mbed: Port of the bootloader to Mbed-OS \
+boot/espressif: Bootloader application and MCUboot port for Espressif SoCs. \
 imgtool: A tool to securely sign firmware images for booting by MCUboot. \
 sim: A bootloader simulator for testing and regression 
