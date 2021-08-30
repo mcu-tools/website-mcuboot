@@ -19,10 +19,10 @@ flow:
 Information and documentation on the bootloader is stored within the source. For more information 
 in the source, here are some pointers:
 
-boot/bootutil: The core of the bootloader itself.
-boot/boot_serial: Support for serial upgrade within the bootloader itself.
-boot/zephyr: Port of the bootloader to Zephyr
-boot/mynewt: Mynewt bootloader app
-boot/mbed: Port of the bootloader to Mbed-OS
-imgtool: A tool to securely sign firmware images for booting by MCUboot.
-sim: A bootloader simulator for testing and regression
+boot/bootutil: The core of the bootloader itself. \
+boot/boot_serial: Support for serial upgrade within the bootloader itself. \
+boot/zephyr: Port of the bootloader to Zephyr \
+boot/mynewt: Mynewt bootloader app \
+boot/mbed: Port of the bootloader to Mbed-OS \
+imgtool: A tool to securely sign firmware images for booting by MCUboot. \
+sim: A bootloader simulator for testing and regression 
