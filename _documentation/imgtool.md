@@ -7,7 +7,7 @@ title: Image tool
 The Python program `scripts/imgtool.py` can be used to perform the
 operations that are necessary to manage keys and sign images.  Using
 this script should be preferred to the manual steps described in
-`doc//documentation/signed-images/`.
+`doc/signed_images.md`.
 
 This program is written for Python3, and has several dependencies on
 Python libraries.  These can be installed using 'pip3':
@@ -22,7 +22,7 @@ You can generate a keypair for one of these types using the 'keygen' command:
     ./scripts/imgtool.py keygen -k filename.pem -t rsa-2048
 
 or use rsa-3072, ecdsa-p256, or ed25519 for the type.  The key type used
-should match what mcuboot is configured to verify.
+should match what MCUboot is configured to verify.
 
 This key file is what is used to sign images, this file should be
 protected, and not widely distributed.
@@ -33,14 +33,14 @@ time you use the private key.
 
 ## [Incorporating the public key into the code](#incorporating-the-public-key-into-the-code)
 
-There is a development key distributed with mcuboot that can be used
+There is a development key distributed with MCUboot that can be used
 for testing.  Since this private key is widely distributed, it should
 never be used for production.  Once you have generated a production
 key, as described above, you should replace the public key in the
 bootloader with the generated one.
 
 For Zephyr, the keys live in the file `boot/zephyr/keys.c`.  For
-mynewt, follow the instructions in `doc//documentation/signed-images/` to generate
+mynewt, follow the instructions in `doc/signed_images.md` to generate
 the key file.
 
     ./scripts/imgtool.py getpub -k filename.pem
@@ -72,7 +72,7 @@ primary slot and adds a header and trailer that the bootloader is expecting:
                                     it from the image version.
       -d, --dependencies TEXT
       --pad-sig                     Add 0-2 bytes of padding to ECDSA signature
-                                    (for mcuboot <1.5)
+                                    (for MCUboot <1.5)
       -H, --header-size INTEGER     [required]
       --pad-header                  Add --header-size zeroed bytes at the
                                     beginning of the image
