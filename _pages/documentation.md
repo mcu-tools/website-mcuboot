@@ -13,18 +13,7 @@ flow:
 
 ### Table of contents
 
-{% include docs_toc.html %}
+Project documentation is stored within the [project
+source](https://github.com/mcu-tools/mcuboot/tree/main/docs).
 
-### Browsing
-Information and documentation on the bootloader is stored within the source. For more information 
-in the source, here are some pointers:
-
-boot/bootutil: The core of the bootloader itself. \
-boot/boot_serial: Support for serial upgrade within the bootloader itself. \
-boot/zephyr: Port of the bootloader to Zephyr \
-boot/mynewt: Mynewt bootloader app \
-boot/mbed: Port of the bootloader to Mbed-OS \
-boot/nuttx: Bootloader application and port of MCUboot interfaces for NuttX. \
-boot/espressif: Bootloader application and MCUboot port for Espressif SoCs. \
-imgtool: A tool to securely sign firmware images for booting by MCUboot. \
-sim: A bootloader simulator for testing and regression 
+[Click here to view documentation](https://docs.mcuboot.com/)
