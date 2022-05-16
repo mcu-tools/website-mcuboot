@@ -4,7 +4,7 @@ title: Building and using MCUboot with Zephyr
 
 # Building and using MCUboot with Zephyr
 
-MCUboot began its life as the bootloader for Mynewt.  It has since
+MCUboot began its life as the bootloader for Mynewt. It has since
 acquired the ability to be used as a bootloader for Zephyr as well.
 There are some pretty significant differences in how apps are built
 for Zephyr, and these are documented here.
@@ -46,10 +46,10 @@ Install additional packages required for development with MCUboot:
 ## Building the bootloader itself
 
 The bootloader is an ordinary Zephyr application, at least from
-Zephyr's point of view.  There is a bit of configuration that needs to
-be made before building it.  Most of this can be done as documented in
-the `CMakeLists.txt` file in boot/zephyr.  There are comments there for
-guidance.  It is important to select a signature algorithm, and decide
+Zephyr's point of view. There is a bit of configuration that needs to
+be made before building it. Most of this can be done as documented in
+the `CMakeLists.txt` file in boot/zephyr. There are comments there for
+guidance. It is important to select a signature algorithm, and decide
 if the primary slot should be validated on every boot.
 
 To build MCUboot, create a build directory in boot/zephyr, and build
@@ -93,7 +93,7 @@ board and then just make a copy of it to get started on your own
 application; see samples/zephyr/README.md for a tutorial.
 
 The Zephyr `CONFIG_BOOTLOADER_MCUBOOT` configuration option
-[documentation](http://docs.zephyrproject.org/reference/kconfig/CONFIG_BOOTLOADER_MCUBOOT.html)
+[documentation](https://docs.zephyrproject.org/latest/kconfig.html#CONFIG_BOOTLOADER_MCUBOOT)
 provides additional details regarding the changes it makes to the image
 placement and generation in order for an application to be bootable by
 MCUboot.
@@ -105,11 +105,11 @@ With this, build the application as your normally would.
 In order to upgrade to an image (or even boot it, if
 `MCUBOOT_VALIDATE_PRIMARY_SLOT` is enabled), the images must be signed.
 To make development easier, MCUboot is distributed with some example
-keys.  It is important to stress that these should never be used for
+keys. It is important to stress that these should never be used for
 production, since the private key is publicly available in this
-repository.  See below on how to make your own signatures.
+repository. See below on how to make your own signatures.
 
-Images can be signed with the `scripts/imgtool.py` script.  It is best
+Images can be signed with the `scripts/imgtool.py` script. It is best
 to look at `samples/zephyr/Makefile` for examples on how to use this.
 
 ### Flashing the application
@@ -124,16 +124,16 @@ information. Additionally you will need to make sure that the flash tool does
 not perform a mass erase (erasing the whole of the flash) or else you would be
 deleting MCUboot.
 These images can also be marked for upgrade, and loaded into the secondary slot,
-at which point the bootloader should perform an upgrade.  It is up to
+at which point the bootloader should perform an upgrade. It is up to
 the image to mark the primary slot as "image ok" before the next reboot,
 otherwise the bootloader will revert the application.
 
 ## Managing signing keys
 
 The signing keys used by MCUboot are represented in standard formats,
-and can be generated and processed using conventional tools.  However,
+and can be generated and processed using conventional tools. However,
 `scripts/imgtool.py` is able to generate key pairs in all of the
-supported formats.  See [the docs](/documentation/imgtool/) for more details on
+supported formats. See [the docs](/documentation/imgtool/) for more details on
 this tool.
 
 ### Generating a new keypair
@@ -145,14 +145,14 @@ subcommand:
     $ ./scripts/imgtool.py keygen -k mykey.pem -t rsa-2048
 ```
 
-The argument to `-t` should be the desired key type.  See the
+The argument to `-t` should be the desired key type. See the
 [the docs](/documentation/imgtool/) for more details on the possible key types.
 
 ### Extracting the public key
 
 The generated keypair above contains both the public and the private
-key.  It is necessary to extract the public key and insert it into the
-bootloader.  The keys live in `boot/zephyr/keys.c`, and can be
+key. It is necessary to extract the public key and insert it into the
+bootloader. The keys live in `boot/zephyr/keys.c`, and can be
 extracted using imgtool:
 
 ```
