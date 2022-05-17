@@ -7,6 +7,12 @@
       "url": "https://www.arm.com/"
     },
     {
+      "image": "/assets/images/members/Golioth.png",
+      "name": "Golioth",
+      "type": "general",
+      "url": "https://golioth.io/"
+    },
+    {
       "image": "/assets/images/members/infineon-logo.png",
       "name": "Infineon",
       "type": "general",
@@ -17,12 +23,6 @@
       "name": "Linaro",
       "type": "general",
       "url": "https://www.linaro.org/"
-    },
-    {
-      "image": "/assets/images/members/Golioth.png",
-      "name": "Golioth",
-      "type": "general",
-      "url": "https://golioth.io/"
     },
     {
       "image": "/assets/images/members/nordic-logo.png",
