@@ -31,6 +31,12 @@
       "url": "https://www.nordicsemi.com/"
     },
     {
+      "image": "/assets/images/members/renesas_logomark_l_clearspace.png",
+      "name": "Renesas",
+      "type": "general",
+      "url": "https://www.renesas.com/"
+    },
+    {
       "image": "/assets/images/members/ST.jpg",
       "name": "ST",
       "type": "general",
