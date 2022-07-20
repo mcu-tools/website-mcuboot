@@ -1,5 +1,5 @@
 ---
-title: MCU Boot - Secure boot for 32-bit Microcontrollers
+title: MCUboot - Secure boot for 32-bit Microcontrollers
 description: >
   Arm Trusted Firmware provides a reference implementation of secure world software for Armv8-A and Armv8-M. It provides SoC developers and OEMs with a reference trusted code base complying with the relevant Arm specifications.
 layout: flow
